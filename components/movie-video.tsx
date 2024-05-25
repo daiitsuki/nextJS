@@ -1,6 +1,6 @@
 import { Suspense } from "react";
-import { API_URL } from "../app/(home)/page";
 import styles from "./movie-video.module.css";
+import { API_URL } from "../app/constants";
 
 async function getVideo(id: string) {
   //  IF API ERROR

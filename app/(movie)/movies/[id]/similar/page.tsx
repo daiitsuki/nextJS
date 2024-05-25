@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { API_URL } from "../../../../(home)/page";
 import Movie from "../../../../../components/movie";
 import { Iparams } from "../page";
 
 import styles from "./styles.module.css";
+import { API_URL } from "../../../../constants";
 
 export const metadata = {
   title: "Similar Movies",
